@@ -31,5 +31,54 @@ header{
     margin-top: 0;
     text-align: center;
     font-size: xx-large;
-    background-color: cornflowerblue;;
+    background-color: cornflowerblue;
+}
+h1,h3,p,li{
+    font-family:'roboto', sans-serif;
+}
+header h1{
+    margin: 0;
+    padding-top:10px;
+}
+html{
+    height:100%;
+}
+
+input{
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    max-width: 640px;
+    height: 100%;
+}
+
+.search {
+    padding: 25px;
+    background-color: white;
+}
+
+.search h1{
+    line-height:30px;
+}
+.forecast{
+    margin-top:25px;
+    border: solid 1px white;
+    margin-left: 5%;
+    min-width: 640px;
+    padding: 12px 15px 15px 15px;
+    height: 40%;
+}
+
+.five-dat-container h1{
+    margin-top: 25px;
+    margin-left: 5%;
+}
+
+.card-row{
+    display: flex;
+    flex-direction: row;
 }
