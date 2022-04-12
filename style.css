@@ -9,7 +9,7 @@ body{
 button{
     width: 70px;
     height: auto;
-    background-color:orange;
+    background-color:yellow;
     border: none;
     border-radius: 5px;
     transition-duration: 4s;
@@ -73,7 +73,7 @@ input{
     height: 40%;
 }
 
-.five-dat-container h1{
+.five-day-container h1{
     margin-top: 25px;
     margin-left: 5%;
 }
@@ -81,4 +81,54 @@ input{
 .card-row{
     display: flex;
     flex-direction: row;
+}
+
+.five-day-card {
+    margin-left: 58px;
+    width: 175px;
+    height: auto;
+    border-radius: 5px;
+    color:white;
+    font-size: larger;
+    background-color: bisque;
+}
+.five-day-container .card-text{
+    margin-bottom:15px;
+    padding: 10px 30px 5px 10px;
+}
+.five-day-card h3{
+    margin:5px;
+}
+img{
+    width: auto;
+    height: auto;
+
+}
+input {
+    height:40px;
+    width: auto;
+}
+li :first-child{
+    height:100%;
+    font-size:larger;
+    background-color: white;
+    border: solid 1px blue;
+    border-radius: 6px 6px 0px 0px;
+    padding: 12px 5px 12px 15px;
+    list-style:none;
+
+}
+li{
+    height:100%;
+    font-size: larger;
+    background-color:white;
+    border: solid 1px blue;
+    border-radius: 0px 0px 6px 6px;
+    padding: 12px 5px 12px 15px;
+    list-style:none;
+}
+.row{
+    display:flex;
+    line-height: 50%;
+    margin: 5px 5px 5px 0px;
 }
