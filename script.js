@@ -124,6 +124,7 @@ if (JSON.parse(localStorage.getItem("searchHistory")) === null) {
         function getFiveDayForecast() {
             cardRow.empty();
             var queryUrl = `https://api.openweathermap.org/data/2.5/forecast?q=${desiredCity}&APPID=${apiKey}&units=imperial`;
+       
             $.ajax({
                 url: queryUrl,
                 method: "GET"
